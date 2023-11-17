@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Switch Language Demo</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script> 
 </head>
@@ -11,12 +11,22 @@
   <main>
 
   <div>
+    <label for="de">
+      <input
+        type="radio"
+        name="language"
+        id="de"
+        checked
+      >
+      <img
+        src="img/de.png" alt="English" title="English"
+      />
+    </label>
     <label for="en">
       <input
         type="radio"
         name="language"
         id="en"
-        checked
       >
       <img
         src="img/en.png" alt="English" title="English"
@@ -34,9 +44,9 @@
     </label>
   </div>
 
-  <h1 class="text" id="showText">Show text in English</h1>
-  <h1 class="text" id="welcome">Welcome</h1>
-  <a href="https://www.flaticon.com/free-icons/" title="flag icons">Flag icons created by Freepik - Flaticon</a>
+  <h1 class="text" id="showText"></h1>
+  <h1 class="text" id="welcome"></h1>
+  <a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Flag icons created by Freepik - Flaticon</a>
 </main>
 
   
