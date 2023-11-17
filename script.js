@@ -64,7 +64,7 @@ function setLanguage(event) {
 // Find which radio button is checked in index.html...
 let defaultButton = radioButtons.find( button => button.checked )
 if (!defaultButton) {
-  // ... and if none are checked, marually check the first one
+  // ... and if none are checked, manually check the first one
   defaultButton = radioButtons[0]
   defaultButton.checked = true
 }
